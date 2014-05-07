@@ -4,6 +4,10 @@ all:
 	bibtex memte
 	latex memte.tex
 	latex memte.tex
+	latex presentacion.tex
+	latex presentacion.tex
+	latex presentacion.tex
+	latex presentacion.tex
 	dvips -o memte.ps memte.dvi
 	ps2pdf -sPAPERSIZE=a4 -DMaxSubsetPct=100 -dCompatibilityLevel=1.2 -dSubsetFonts=true -dEmbedAllFonts=true memte.ps memte.pdf
 
