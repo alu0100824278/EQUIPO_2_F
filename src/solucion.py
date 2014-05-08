@@ -9,4 +9,4 @@ numero = int(raw_input("Introduzca el grado que desea que tenga el Polinomio de 
 centro = float(raw_input("Introduzca el punto central donde desea que se evalue el Polinomio de Taylor: "))
 x = float(raw_input("Introduzca el punto x donde desea evaluar el Polinomio de Taylor: "))
 
-
+modulo.taylor1(x, numero, centro)
