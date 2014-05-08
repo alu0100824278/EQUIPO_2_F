@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.1.24)  2 MAY 2014 11:00
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.12)  8 MAY 2014 15:44
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -162,6 +162,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 111.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 114.
+
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -176,7 +186,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `memte.toc'.
 
- [1
+
+[1
 
 ] [2
 
@@ -198,44 +209,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Cap\'{\i }tulo 1.
-(./tex/cap1.tex) [1
-
-]
-Cap\'{\i }tulo 2.
-(./tex/cap2.tex) [2
-
-]
-Cap\'{\i }tulo 3.
-(./tex/cap3.tex
-File: images/figura1.eps Graphic file (type eps)
- <images/figura1.eps> (./tables/table.tex)
-File: images/imagen1.eps Graphic file (type eps)
- <images/imagen1.eps>) [3
-
-] [4]
-Cap\'{\i }tulo 4.
-(./tex/cap4.tex) [5
-
-] [6
-
-]
-Ap\'{e}ndice A.
-(./tex/apendice1.tex) [7
-
-]
-Ap\'{e}ndice B.
-(./tex/apendice2.tex) (./memte.bbl [8
-
-]) [9
-
-] (./memte.aux) ) 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.167 \chapter{Motivación y objetivos}
+                                       
+? x
+ 
 Here is how much of TeX's memory you used:
- 1770 strings out of 495062
- 21439 string characters out of 1182644
- 75798 words of memory out of 3000000
- 4901 multiletter control sequences out of 15000+50000
- 13237 words of font info for 48 fonts, out of 3000000 for 9000
+ 1668 strings out of 495062
+ 20460 string characters out of 1182644
+ 72798 words of memory out of 3000000
+ 4830 multiletter control sequences out of 15000+50000
+ 11451 words of font info for 42 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,7n,27p,208b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-Output written on memte.dvi (17 pages, 16020 bytes).
+ 25i,5n,27p,208b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
+Output written on memte.dvi (8 pages, 1824 bytes).
