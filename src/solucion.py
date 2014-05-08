@@ -10,5 +10,7 @@ x = float(raw_input("Introduzca el punto x donde desea evaluar el Polinomio de T
 
 for i in range (0,numero+1):
   modulo.taylor(x, i, centro)
-  
-print suma
+
+modulo.taylor1(x, i, centro)
+
+
