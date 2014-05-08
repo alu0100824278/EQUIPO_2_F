@@ -2,6 +2,7 @@
 
 import math
 from sympy import *
+import time
 
 def factorial(numero):
   factorial = 1
@@ -39,3 +40,19 @@ def taylor1(x, numero, centro):
   print 'El Error de la funcion original con el Polinomio de Taylor es: error=%f' % error
   return taylor1
 
+def lista():
+  f=open("Taylor.tex", 'w')
+  f.write('Grado del polinomio (n), Punto Central (c), Punto de evaluación (x), Aproximación, Error, Tiempo CPU \n ')
+  f.write('==================================================================================================== \n')
+  f.close()
+  for i in range (0,numero+1):
+    p=[]
+    inicio = time.time()
+    p=p+[modulo.taylor(x, i, centro)]
+    fin = time.time
+    tiempo_total = fin - inicio
+    p=p+[tiempo_total]
+    f.write(str(p)) 
+    f.write("\n")
+  modulo.taylor1(x, i, centro)
+  f.close()

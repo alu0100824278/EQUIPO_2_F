@@ -1,16 +1,30 @@
 #!/src/bin/python
-
+#!encoding: UTF-8
 import math 
 from sympy import *
 import modulo
+import time
 
 numero = int(raw_input("Introduzca el grado que desea que tenga el Polinomio de Taylor: "))
 centro = float(raw_input("Introduzca el punto central donde desea que se evalue el Polinomio de Taylor: "))
 x = float(raw_input("Introduzca el punto x donde desea evaluar el Polinomio de Taylor: "))
 
+f=open("Taylor.tex", 'w')
+f.write('Grado del polinomio (n), Punto Central (c), Punto de evaluación (x), Aproximación, Error, Tiempo CPU \n ')
+f.write('==================================================================================================== \n')
+
 for i in range (0,numero+1):
-  modulo.taylor(x, i, centro)
-  
-print 'El Polinomio de Taylor de grado n=%d en el punto centro c=%f evaluada en el punto x=%f es igual a %f' % (numero, centro, x, modulo.taylor1(x, i, centro))
+  f.writelines(numero)
+  p=[]
+  ci=time.clock()
+  p=p+[modulo.taylor(x, i, centro)]
+  cf=time.clock()
+  tp=cf-ci
+  p=p+[tp]
+  f.write(str(p)) 
+  f.write("\n")
+modulo.taylor1(x, i, centro)
+f.close()
 
-
+f=open("Taylor.tex", "r")
+print(f.read())
