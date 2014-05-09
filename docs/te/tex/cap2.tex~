@@ -2,27 +2,59 @@
 % Chapter 2: Fundamentos Teóricos 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-En este capítulo se han de presentar los antecedentes teóricos y prácticos que
-apoyan el tema objeto de la investigación.
-
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-\section{Primer apartado del segundo capítulo}
+\section{Historia}
 \label{2:sec:1}
-  Primer párrafo de la primera sección.
+  Brook Taylor nació el 18 de agosto de 1685 en Edmonton. Hijo de John Taylor,
+del Parlamento de Bifrons, Kent, y de Olivia Tempest (hija de Sir Nicholas Tempest). 
 
-\section{Segundo apartado del segundo capítulo}
+  En "Los métodos de incrementación directa e inversa" de Taylor (1715) agregaba a las 
+matemáticas una nueva rama llamada ahora  <<El cálculo de las diferencias finitas>> , 
+e inventó la integración por partes y descubrió la célebre fórmula conocida como la Serie de Taylor,
+la importancia de esta fórmula no fue reconocida hasta 1772, cuando Lagrange proclamó los 
+principios básicos del Cálculo Diferencial. Taylor también desarrolló los principios fundamentales 
+de la perspectiva en "Perspectivas Lineales" (1715). En su Methodus Incrementorum Directa et Inversa 
+(Londres, 1715) desarrolló una nueva parte dentro de la investigación matemática, 
+que hoy se llama cálculo de las diferencias finitas. Junto con "Los nuevos principios de 
+la perspectiva lineal". Taylor da cuenta de un experimento para descubrir las leyes de la 
+atracción magnética (1715) y un método no probado para aproximar las raíces de una ecuación 
+dando un método nuevo para logaritmos computacionales (1717). 
+
+  Brook Taylor murió en Somerset House el 29 de diciembre de 1731.
+
+\section{Cálculo de la serie de Taylor}
 \label{2:sec:2}
-  Primer párrafo de la segunda sección.
+  Sea $f(x)$ una función definida en un intervalo que contiene al punto $a$, con derivadas en todos los órdenes.
   
-  En \LaTeX{}~\cite{Lam:LDP94} es sencillo escribir expresiones
-  matemáticas como $a=\sum_{i=1}^{10} {x_i}^{3}$
-  y deben ser escritas entre dos símbolos \$.
-  Los superíndices se obtienen con el símbolo \^{}, y
-  los subíndices con el símbolo \_.
-  Por ejemplo: $x^2 \times y^{\alpha + \beta}$.
-  También se pueden escribir fórmulas centradas:
-  \[h^2=a^2 + b^2 \]
-  
+  El polinomio de primer grado 
+\begin{center}
+$p_{1}(x) = f(a) + f ' (a) (x-a)$ 
+\end{center}
+tiene el mismo valor que $f(x)$ en el punto $x=a$ y también, como se comprueba fácilmente, la misma derivada que $f(x)$ en este punto. Su gráfica es una recta
+tangente a la gráfica de $f(x)$ en el punto $a$.
+
+  Es posible elegir un polinomio de segundo grado, 
+\begin{center}
+$p_{2}(x) = f(a) + f ' (a) (x-a) + \frac{1}{2} f '' (a) (x-a) ^ 2$
+\end{center}
+  tal que en el punto $x=a$ tenga el mismo valor que $f(x)$ y también valores iguales para su primera y segunda derivada. Su gráfica en el punto $a$ 
+se acercará a la de $f(x)$ más que la anterior. Es natural esperar que si construimos un polinomio que en $x=a$ tenga las mismas n primeras derivadas 
+que $f(x)$ en el mismo punto, este polinomio se aproximará más a $f(x)$ en los puntos $x$ próximos a $a$. Así obtenemos la siguiente igualdad aproximada, 
+que es la fórmula de Taylor:
+
+\begin{center} 
+$f(x) = f(a) + f '(a) (x-a) + \frac{1}{2!} f '' (a) (x-a) ^ 2 + ...... + \frac{1}{n!} f ^ n(a) (x-a) ^ n$
+
+\end{center}	    
+  El segundo miembro de esta fórmula es un polinomio de grado $n$ en $(x-a)$. Para cada valor de $x$ puede calcularse el valor de este polinomio si se
+conocen los valores de $f(a)$ y de sus n primeras derivadas.
+
+  Para el caso de la función $sin(x)$ el Polinomio de Taylor sería de la siguiente forma: 
+
+\begin{center}
+$f(x) = sin(a) + cos(a) (x-a) - \frac{1}{2!} sin (a) (x-a) ^ 2 - \frac{1}{3!} cos (a) (x-a) ^3 +$
+\end{center}
+\begin{center}
+$\frac{1}{4!} sin (a) (x-a) ^ 4 +... + \frac{1}{n!} f ^ n(a) (x-a) ^ n$
+
+\end{center}

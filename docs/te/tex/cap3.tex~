@@ -2,30 +2,38 @@
 % Chapter 3: Procedimiento experimental 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Este capítulo ha de contar con seccciones para la descripción de los experimentos 
-y del material.
-%
-También debe haber una sección para los resultados obtenidos y una última de 
-análisis de los resultados.
-
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción de los experimentos}
 \label{3:sec:1}
 
-bla, bla, etc. 
+  El experimento llevado a cabo en esta memoria ha consistido en la realización de varios códigos en lenguaje $Python$. Los algoritmos implementados que solucionan dichos códigos 
+estiman la aproximación $f(x) = sin(x)$ mediante el método de Taylor, solicitando el grado del polinomio de Taylor, el punto central y el punto x donde se evalua dicho polinomio.  
+  
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
+  Los materiales requeridos para la realización del trabajo han sido:
+\begin{enumerate}
 
-bla, bla, etc. 
+  \item
+   Un ordenador, el cual posee la siguien informaciónCPU type: Intel(R) Core(TM) i3-2328M CPU @ 2.20GHz 
+  \item
+    vendor ID	GenuineIntel
+  \item
+    CPU speed	800.000Hz
+  \item
+    cache size	3072 KB
+  
+\end{enumerate}
+
 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Resultados obtenidos}
 \label{3:sec:3}
 
-bla, bla, etc. 
+
 
 
 %------------------------------------------------------------------------------
