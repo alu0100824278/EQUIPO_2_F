@@ -1,4 +1,4 @@
-CD\documentclass{beamer}
+\documentclass{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 
