@@ -1,0 +1,138 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Número &\pi&]{Práctica 11}
+\author[Elizabeth]{Elizabeth Hernández Martín}
+\date[25-04-2014]{25 de abril de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{img/ullesc}
+  \hspace*{7.0cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc}
+  \titlepage
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+
+\section{Primera Sección}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Primera Sección}
+
+\begin{definicion}
+
+Pi es la relación entre la longitud una una circuferencia y su diámetro, en geometría euclidiana.
+Es un número irracional y una de las constantes matemáticasmás importantes. Se emplea frecuentemente 
+en matemáticas, física e ingienería. El valor numérico de $\pi$ aprocimado, trucando a sus primeras cifras, 
+es el siguiente:
+
+$\pi$ = 3.14159265358979323846...
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Segunda Sección}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Segunda Sección}
+
+\begin{block}{Historia de $\pi$}
+Pi es el número que se obtiene de dividir la longitud de una circunferencia por su diámetro.
+No importa el tamaño de la circunferencia. Grande o pequeña, la proporción
+entre su longitud y su diámetro es siempre la misma. Aunque es probable que esta propiedad 
+fuera conocidad con anterioridad,los grandes estudiosos de este número fueron los
+antiguos griegos, como Anaxágoras, Hipócrates de Quios o Antifronte de Atenas. Anteriormente, 
+el valor de $\pi$ se determinaba, casi con seguridad, mediante medidas
+experimentales. Arquímedes fue el primero que sepamos, que realizó una estimación teórica de su valor. 
+Usando polígonos circunscritos e inscritos, determinó que $\pi$
+era mayor que 223/71 y menor que 22/7.
+
+\end{block}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\section{Fórmulas}
+\begin{frame}
+
+\frametitle{Fórmulas}
+
+\begin{block}{Cáculo de $\pi$:}
+Por aproximación por integración:
+$$\int_{0}^{1} \! \frac{4}{1+x^2}\, dx = 4(atan(1) -atan(0) = \pi $$
+Esta integral se puede aproximar numéricamente con una fórmula de cuadratura.
+
+Si se utiliza la regla del punto medio se obtien:
+
+$ \pi \approx \frac{1}{n} \sum\limits_{i=1}^{n}f(x_i)\,$,
+ con $f(x) = \frac{4}{1+x^2}\,$,
+ $x_i = \frac{i - \frac{1}{2}}{n}$,
+ para $i = 1, \dots, n$
+
+\end{block}
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Tutorial LaTex]{plan}  
+    Tutorial LaTex. 
+
+    \beamertemplatebookbibitems
+    \bibitem[Tutorial Beamer]{guia}  
+    Turorial Beamer. 
+
+    \beamertemplatebookbibitems
+    \bibitem[URL:Wikipedia]{latex} 
+    Wikipedia. %\verb|http://www.wikipedia.org/wiki/Número_n|
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\end{document}
