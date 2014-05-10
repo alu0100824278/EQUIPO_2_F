@@ -1,16 +1,17 @@
 \select@language {spanish}
-\contentsline {chapter}{\numberline {1}Motivaci\'on y objetivos}{1}
-\contentsline {section}{\numberline {1.1}Objetivo principal:}{1}
-\contentsline {section}{\numberline {1.2}Objetivo espec\IeC {\'\i }fico:}{1}
-\contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{2}
-\contentsline {section}{\numberline {2.1}Historia}{2}
-\contentsline {section}{\numberline {2.2}C\'alculo de la serie de Taylor}{2}
-\contentsline {chapter}{\numberline {3}Procedimiento experimental}{4}
-\contentsline {section}{\numberline {3.1}Descripci\'on de los experimentos}{4}
-\contentsline {section}{\numberline {3.2}Descripci\'on del material}{4}
-\contentsline {section}{\numberline {3.3}Resultados obtenidos}{5}
-\contentsline {section}{\numberline {3.4}An\'alisis de los resultados}{6}
-\contentsline {chapter}{\numberline {4}Conclusiones}{7}
+\contentsline {chapter}{\numberline {1}Resumen}{1}
+\contentsline {chapter}{\numberline {2}Motivaci\'on y objetivos}{2}
+\contentsline {section}{\numberline {2.1}Objetivo principal:}{2}
+\contentsline {section}{\numberline {2.2}Objetivo espec\IeC {\'\i }fico:}{2}
+\contentsline {chapter}{\numberline {3}Fundamentos te\'oricos}{3}
+\contentsline {section}{\numberline {3.1}Historia}{3}
+\contentsline {section}{\numberline {3.2}C\'alculo de la serie de Taylor}{3}
+\contentsline {chapter}{\numberline {4}Procedimiento experimental}{5}
+\contentsline {section}{\numberline {4.1}Descripci\'on de los experimentos}{5}
+\contentsline {section}{\numberline {4.2}Descripci\'on del material}{5}
+\contentsline {section}{\numberline {4.3}Resultados obtenidos}{6}
+\contentsline {section}{\numberline {4.4}An\'alisis de los resultados}{7}
+\contentsline {chapter}{\numberline {5}Conclusiones}{8}
 \contentsline {chapter}{\numberline {A}Programa en Python}{9}
 \contentsline {section}{\numberline {A.1}Algoritmo principal}{9}
 \contentsline {section}{\numberline {A.2}Algoritmo del m\'odulo}{9}

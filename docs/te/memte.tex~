@@ -164,7 +164,11 @@
 \setcounter{page}{1}
 
 \setlength{\parindent}{5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Resumen}
+\label{chaper:res}
 
+ En este trabajo se studiará el polinomio de Taylor para la función $sin(x)$. Para ello se han realizados algortimos
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Motivación y objetivos}
 \label{chapter:obj}
@@ -196,12 +200,12 @@
 \thispagestyle{empty}
 \begin{appendix}
 
-\chapter{Título del Apéndice 1}
+\chapter{Programa en Python}
 \label{appendix:1}
 
 \input{tex/apendice1.tex}
 
-\chapter{Explicación del programa} 
+\chapter{Explicación del programa en Python} 
 \label{appendix:2}
 
 \input{tex/apendice2.tex}

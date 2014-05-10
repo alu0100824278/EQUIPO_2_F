@@ -20,7 +20,7 @@ de la funci\'on estudiada.
 
 \item
 
-En el \'ultimo experimento realizado se observa que al agregar m\'as decimales al punto x el error aumenta.
+En el \'ultimo experimento realizado se observa que al agregar m\'as decimales al punto x el error aumenta. Ver tabla \ref{tab: 3.4}
 
 \item
 Cuando se le asigna un mayor grado al polinomio de Taylor, el tiempo de CPU en calcularlo va aumentando. Aunque no se ha llegado podido registrar que demore 1s. El tiempo 

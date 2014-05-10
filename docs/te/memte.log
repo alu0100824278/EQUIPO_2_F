@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  10 MAY 2014 18:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  10 MAY 2014 22:13
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -208,22 +208,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Cap\'{\i }tulo 1.
-(./tex/cap1.tex) [1
+[1
 
 ]
 Cap\'{\i }tulo 2.
+(./tex/cap1.tex) [2
+
+]
+Cap\'{\i }tulo 3.
 (./tex/cap2.tex
 LaTeX Font Info:    Try loading font information for U+lasy on input line 12.
  (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [2
+) [3
 
 ])
-[3]
-Cap\'{\i }tulo 3.
+[4]
+Cap\'{\i }tulo 4.
 (./tex/cap3.tex
 File: images/grafico.eps Graphic file (type eps)
- <images/grafico.eps> [4
+ <images/grafico.eps> [5
 
 ] (./tables/table.tex
 Overfull \hbox (46.81557pt too wide) in paragraph at lines 3--13
@@ -236,20 +240,18 @@ Overfull \hbox (46.81557pt too wide) in paragraph at lines 20--29
  []
 
 
-Overfull \hbox (52.29057pt too wide) in paragraph at lines 36--45
+Overfull \hbox (48.64058pt too wide) in paragraph at lines 36--47
 [][] 
  []
 
 
-Overfull \hbox (58.83015pt too wide) in paragraph at lines 52--59
+Overfull \hbox (53.35515pt too wide) in paragraph at lines 55--62
 [][] 
  []
 
-) [5]) [6]
-Cap\'{\i }tulo 4.
-(./tex/cap4.tex) [7
-
-] [8
+) [6]) [7]
+Cap\'{\i }tulo 5.
+(./tex/cap4.tex) [8
 
 ]
 Ap\'{e}ndice A.
@@ -266,6 +268,7 @@ esea que se evalue el Polinomio de Taylor: "))[]
  []
 
 [9
+
 
 ]) [10]
 Ap\'{e}ndice B.
@@ -290,12 +293,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1796 strings out of 495062
- 21916 string characters out of 1182644
- 82798 words of memory out of 3000000
- 4921 multiletter control sequences out of 15000+50000
+ 1798 strings out of 495062
+ 21936 string characters out of 1182644
+ 83798 words of memory out of 3000000
+ 4923 multiletter control sequences out of 15000+50000
  14124 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,7n,27p,256b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (21 pages, 31188 bytes).
+Output written on memte.dvi (21 pages, 34848 bytes).
