@@ -17,5 +17,5 @@ y1 = np.arange(0,10,0.1)
 y2 = np.sin(y1)
   
 mp.plot(y1,y2)
-mp.savefig('grafico.png',dpi = 200)
+mp.savefig('grafico.png',dpi = 30)
 mp.show()

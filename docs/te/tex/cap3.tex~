@@ -6,30 +6,38 @@
 \section{Descripción de los experimentos}
 \label{3:sec:1}
 
-  El experimento llevado a cabo en esta memoria ha consistido en la realización de varios códigos en lenguaje $Python$. Los algoritmos implementados que solucionan dichos códigos 
-estiman la aproximación $f(x) = sin(x)$ mediante el método de Taylor, solicitando el grado del polinomio de Taylor, el punto central y el punto x donde se evalua dicho polinomio.  
+  El experimento llevado a cabo en esta memoria ha consistido en la realización de varios códigos en lenguaje $Python$. 
+Los algoritmos implementados que solucionan dichos códigos estiman la aproximación $f(x) = sin(x)$ mediante el método de Taylor, 
+solicitando el grado del polinomio de Taylor, el punto central y el punto x donde se evalua dicho polinomio.
+Para obtener varios valores del plinomio y así poder comparar los datos obtenidos del error y el tiempo de CPU, se ha ejecutado el programa varias veces:
+\begin{itemize}
+
+\item Experimento 1:
+ El grado del polinomio y el punto $c$ se dejaron fijos, variando solamente el punto $x$. 
+
+\item Experimento 2: 
+ El grado del polinomio tiene el mismo valor que en el experimento anterior, el valor de $x$ no varía y el que lo hace es el punto $c$.
+
+\item Experimento 3:
+ El grado del polinomio es fijo con un valor mayor al de los anteriores experimentos. El punto $c$ es fijo y el punto $x$ se va modificiando.
+
+\item Experimento 4:
+ El grado del polinomio toma el valor de 100. El punto $c$ no cambia y el punto $x$ solo varia en las cantidad de cifras decimales. 
+
+\end{itemize}
   
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
-  Los materiales requeridos para la realización del trabajo han sido: 
-<<<<<<< HEAD
-\begin{enumerate}
-
-  \item
-   SE han ut
-  \item
-   El sistema operativo empleado es Bardinux, adaptación de la distribución de Linux 'kubuntu' a las necesidades
- en cuanto a Software de los miembros de la comunidad universitaria de la ULL.
-=======
+  El material requerido para la realización del trabajo ha sido una computadora.
+La que hemos utilizado para realizar estos experimentos tiene las siguientes caracteristicas: 
 \begin{itemize}
  
   \item
    CPU type: Intel(R) Core(TM) i3-2328M CPU @ 2.50GHz
   \item
    vendor ID	GenuineIntel
->>>>>>> 3d5ae329064b524c1166ae8b3da21f7cb57e890e
   \item
     CPU speed	1200.000Hz
   \item
@@ -42,9 +50,6 @@ estiman la aproximación $f(x) = sin(x)$ mediante el método de Taylor, solicitand
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Resultados obtenidos}
 \label{3:sec:3}
-
-
-
 
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
@@ -64,6 +69,14 @@ estiman la aproximación $f(x) = sin(x)$ mediante el método de Taylor, solicitand
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Análisis de los resultados}
 \label{3:sec:4}
-
-bla, bla, etc. 
+\begin{itemize}
+\item Experimento 1:
+ Polinomio de taylor de grado 4, punto $c=10.0$.
+El punto de evalución fue cambiando. A medida que se acercaba al punto $c$, el error fue disminuyendo. La diferencia del tiempo de CPU 
+es mínima. 
+\item Experimento 2:
+ Polinomio de Taylor de grado 4, punto $x=2.0$
+El punto $c$ fue cambiando. Cuando el punto $c$ es 0, tanto el valor de la aproximación como el del error son iguales pero de signos diferentes. 
+Si el valor otorgado a $c$ es negativo el error que se obtiene es mucho mas grande que si el valor de $c$ es positivo. 
+\end{itemize}
 

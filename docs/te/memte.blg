@@ -6,46 +6,45 @@ Warning--to sort, need author or key in URL:XML1
 Warning--empty school in Leo:96
 Warning--empty institution in 869377
 Warning--empty institution in 869369
-Warning--empty institution in 869378
-You've used 7 entries,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            526 strings with 4564 characters,
-and the built_in function-call counts, 1375 in all, are:
-= -- 129
-> -- 43
+            524 strings with 4543 characters,
+and the built_in function-call counts, 1174 in all, are:
+= -- 108
+> -- 36
 < -- 0
-+ -- 19
-- -- 12
-* -- 62
-:= -- 250
-add.period$ -- 18
-call.type$ -- 7
-change.case$ -- 26
++ -- 16
+- -- 10
+* -- 52
+:= -- 210
+add.period$ -- 15
+call.type$ -- 6
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 59
-empty$ -- 127
-format.name$ -- 12
-if$ -- 279
+cite$ -- 10
+duplicate$ -- 51
+empty$ -- 112
+format.name$ -- 10
+if$ -- 240
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 6
 missing$ -- 2
-newline$ -- 35
-num.names$ -- 12
-pop$ -- 44
+newline$ -- 30
+num.names$ -- 10
+pop$ -- 41
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 17
 quote$ -- 0
-skip$ -- 41
+skip$ -- 36
 stack$ -- 0
-substring$ -- 35
+substring$ -- 30
 swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 26
-warning$ -- 5
-while$ -- 12
-width$ -- 8
-write$ -- 68
-(There were 5 warnings)
+type$ -- 22
+warning$ -- 4
+while$ -- 10
+width$ -- 7
+write$ -- 57
+(There were 4 warnings)

@@ -9,8 +9,6 @@
 \usepackage{templates/algorithm}
 \usepackage{templates/algorithmic}
 \usepackage{templates/multirow}
-\usepackage{amsmath}
-\usepackage{amssymb}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -110,8 +108,8 @@
         {\Huge SERIES NUMÉRICAS} \\[2.5mm] 
         {\Huge Función trigonométrica: sin(x)} \\[2.5mm]
         {\Large Jorge Antonio Herrera Alonso\\[5mm]
-		Elizabeth Hernández Martín\\[5mm]
-		Yessica Sabrina Gómez Buso}\\[5mm]
+		 Elizabeth Hernández Martín\\[5mm]
+		 Yessica Sabrina Gómez Buso}\\[5mm]
         {\Large \textit{Grupo ($2\mid F$) }} \\[5mm]
 
 
@@ -203,11 +201,7 @@
 
 \input{tex/apendice1.tex}
 
-<<<<<<< HEAD
-\chapter{Título del Apéndice 2} 
-=======
-\chapter{Título del Apéndice 2}
->>>>>>> 3d5ae329064b524c1166ae8b3da21f7cb57e890e
+\chapter{Explicación del programa} 
 \label{appendix:2}
 
 \input{tex/apendice2.tex}
