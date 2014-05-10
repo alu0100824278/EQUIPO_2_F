@@ -18,9 +18,17 @@ para importar un elemento concreto de la libreria.
 \begin{footnotesize}
 \begin{verbatim}
 Luego, pedimos por pantalla las 3 variables necesarias para ejecutar nuestro programa que son:
-el grado del polinomio de Taylor (numero), el punto central (centro) y el punto donde se desea evaluar (x). Finalmente, acabamos el programa llamando a la funcion taylor1 que se encuentra en nuestro modulo.
+el grado del polinomio de Taylor (numero), el punto central (centro) 
+y el punto donde se desea evaluar (x). 
+Finalmente, acabamos el programa llamando a la funcion taylor1 
+que se encuentra en nuestro modulo.
 
-Al igual que en el programa principal, importaremos las librerias que utilizaremos posteriormente. Primeramente, definimos la funcion factorial, que luego sera usada en la otra funcion para calcular el polinomio de Taylor. factorial(numero) crea un bucle for que incremente su valor, dependiendo de la variable numero introducida.
+Al igual que en el programa principal, importaremos las librerias 
+que utilizaremos posteriormente. 
+Primeramente, definimos la funcion factorial, que luego sera usada 
+en la otra funcion para calcular el polinomio de Taylor. factorial(numero) 
+crea un bucle for que incremente su valor, 
+dependiendo de la variable numero introducida.
  
 \end{verbatim}
 \end{footnotesize}
@@ -29,19 +37,34 @@ Al igual que en el programa principal, importaremos las librerias que utilizarem
 \begin{center}
 \begin{footnotesize}
 \begin{verbatim}
-La siguiente funcion taylor1 dependera de las tres variables que se han introducido por pantalla.
+La siguiente funcion taylor1 dependera de las tres variables que se han 
+introducido por pantalla.
 
-Primero, declaramos una variable c sobre que la que se derivara luego la funcion f respecto de ella
+Primero, declaramos una variable c sobre que la que se derivara luego la funcion f 
+respecto de ella
 
-Evaluamos la funcion f en el punto c = centro y con ese valor inicializamos la variable suma. Luego, entramos en un bucle for, en el que se vaya derivando la funcion f y asi, se vaya evaluando en el punto c = centro para calcular una nueva variable s, propia del polinomio de Taylor, y asi ir incrementando la variable suma.
+Evaluamos la funcion f en el punto c = centro y con ese valor 
+inicializamos la variable suma. Luego, entramos en un bucle for, 
+en el que se vaya derivando la funcion f y asi, se vaya evaluando en el punto c = centro
+para calcular una nueva variable s, propia del polinomio de Taylor,
+y asi ir incrementando la variable suma.
  
-Ahora calculamos el error cometido entre la funcion original y la aproximacion del polinomio de Taylor. Seguidamente, mostramos por pantalla los datos obtenidos en el programa y creamos una lista l que luego usaremos para escribir en un fichero.
+Ahora calculamos el error cometido entre la funcion original 
+y la aproximacion del polinomio de Taylor. 
+Seguidamente, mostramos por pantalla los datos obtenidos en el programa 
+y creamos una lista l que luego usaremos para escribir en un fichero.
  
-Lo siguiente sera parar el cronometro del programa y calcular el tiempo total que ha tardado en realizarse.
+Lo siguiente sera parar el cronometro del programa 
+y calcular el tiempo total que ha tardado en realizarse.
  
-Por ultimo, abrimos un fichero de nombre Taylor.tex que actualice lo que hemos obtenido como resultados, si no se encuentra ya en el fichero ("a"), luego escribimos un encabezado, para saber que significa cada dato que luego escribiremos en una única línea con f.write(str(l)).
+Por ultimo, abrimos un fichero de nombre Taylor.tex 
+que actualice lo que hemos obtenido como resultados, 
+si no se encuentra ya en el fichero ("a"), 
+luego escribimos un encabezado, para saber que significa cada dato 
+que luego escribiremos en una única línea con f.write(str(l)).
  
-Finalizamos el modulo con un f.close() para cerrar el fichero y mostramos por pantalla dicho fichero para comprobar los resultados.
+Finalizamos el modulo con un f.close() para cerrar el fichero 
+y mostramos por pantalla dicho fichero para comprobar los resultados.
  
 \end{verbatim}
 \end{footnotesize}

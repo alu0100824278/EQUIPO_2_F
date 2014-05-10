@@ -4,14 +4,18 @@ import math
 from sympy import *
 import modulo
 import time
+import numpy as np 
+import matplotlib.pyplot as mp
 
 numero = int(raw_input("Introduzca el grado que desea que tenga el Polinomio de Taylor: "))
 centro = float(raw_input("Introduzca el punto central donde desea que se evalue el Polinomio de Taylor: "))
 x = float(raw_input("Introduzca el punto x donde desea evaluar el Polinomio de Taylor: "))
 
-f = open("Taylor.tex", 'w')
-f.write('Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU \n ')
-f.write('==================================================================================================== \n')
-f.close()
-
 modulo.taylor1(x, numero, centro)
+
+y1 = np.arange(0,1,0.1)
+y2 = np.sin(y1)
+  
+mp.plot(y1,y2)
+mp.savefig('grafico.png',dpi = 200)
+mp.show()
