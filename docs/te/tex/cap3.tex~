@@ -13,13 +13,14 @@ estiman la aproximación $f(x) = sin(x)$ mediante el método de Taylor, solicitand
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
-  Los materiales requeridos para la realización del trabajo han sido:
+  Los materiales requeridos para la realización del trabajo han sido: 
 \begin{enumerate}
 
   \item
-   Un ordenador, el cual posee la siguien informaciónCPU type: Intel(R) Core(TM) i3-2328M CPU @ 2.20GHz 
+   SE han ut
   \item
-    vendor ID	GenuineIntel
+   El sistema operativo empleado es Bardinux, adaptación de la distribución de Linux 'kubuntu' a las necesidades
+ en cuanto a Software de los miembros de la comunidad universitaria de la ULL.
   \item
     CPU speed	800.000Hz
   \item
