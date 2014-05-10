@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  9 MAY 2014 16:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  10 MAY 2014 11:31
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -212,8 +212,13 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 [3]
 Cap\'{\i }tulo 3.
 (./tex/cap3.tex
-File: images/figura1.eps Graphic file (type eps)
- <images/figura1.eps> (./tables/table.tex)) [4
+File: images/grafico.eps Graphic file (type eps)
+ <images/grafico.eps> (./tables/table.tex
+Overfull \hbox (102.32603pt too wide) in paragraph at lines 3--10
+ [] 
+ []
+
+)) [4
 
 ] [5]
 Cap\'{\i }tulo 4.
@@ -221,45 +226,34 @@ Cap\'{\i }tulo 4.
 
 ]
 Ap\'{e}ndice A.
-(./tex/apendice1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./tex/apendice1.tex [7
 
- [7
 
+]) [8]
+Ap\'{e}ndice B.
+(./tex/apendice2.tex
+Overfull \hbox (17.3535pt too wide) in paragraph at lines 33--33
+[]\OT1/cmtt/m/n/9 Luego, pedimos por pantalla las 3 variables necesarias para e
+jecutar nuestro programa que son:[] 
+ []
+
+[9
 
 ]
-Overfull \hbox (225.25108pt too wide) in paragraph at lines 66--66
-[]  \OT1/cmtt/m/n/9 print 'El Polinomio de Taylor de grado n=%d en el punto cen
-tro c=%f evaluada en el punto x=%f es igual a %f' % (numero, centro, x, suma)[]
- 
- []
-
-
-Overfull \hbox (126.02724pt too wide) in paragraph at lines 66--66
-[]  \OT1/cmtt/m/n/9 f.write('Grado del polinomio (n), Punto Central (c), Punto 
-de evaluaci^^Son (x), Aproximaci^^Son, Error, Tiempo CPU \n ')[] 
- []
-
-
-Overfull \hbox (121.30229pt too wide) in paragraph at lines 66--66
-[]  \OT1/cmtt/m/n/9 f.write('==================================================
-================================================== \n')[] 
- []
-
-) [8]
-Ap\'{e}ndice B.
-(./tex/apendice2.tex) (./memte.bbl [9
-
-]) [10
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 69.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 69.
+) (./memte.bbl [10]) [11
 
 ] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
- 1793 strings out of 495062
- 21889 string characters out of 1182644
+ 1802 strings out of 495062
+ 21992 string characters out of 1182644
  76798 words of memory out of 3000000
- 4921 multiletter control sequences out of 15000+50000
- 13343 words of font info for 49 fonts, out of 3000000 for 9000
+ 4927 multiletter control sequences out of 15000+50000
+ 14124 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,8n,27p,320b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,7n,27p,320b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (18 pages, 21480 bytes).
+Output written on memte.dvi (19 pages, 24048 bytes).

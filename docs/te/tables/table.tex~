@@ -1,13 +1,13 @@
 \begin{table}[!ht]
 \begin{center}
-\begin{tabular}{|l|c|c|}
+\begin{tabular}{|l|c|c|c|c|}
 \hline
-Nombre & Edad & Nota \\ \hline
-Pepe   &   24 &   10 \\ \hline
-Juan   &   19 &    8 \\ \hline
-Luis   &   21 &    9 \\ \hline
+Grado  & Punto c & Punto de Evaluacion & Aproximacion       & Error             & Tiempo CPU           \\ \hline
+4      &   0.0   &    1                & 0.833333           & -0.833333         & 0.007406949996948242 \\ \hline
+6      &   10    &    5                & 12.4605618963148   & -13.0045830072041 & 0.009202957153320312 \\ \hline
+10     &   10    &    10               & -0.544021110889370 & 0                 & 0.010988950729370117  \\ \hline
 \end{tabular}
 \end{center}
-\capiton{Mi primer cuadro de datos}
+\caption{Tabla de datos obtenidos experimentalmente}
 \label{tab}
 \end{table}
