@@ -14,6 +14,7 @@ estiman la aproximación $f(x) = sin(x)$ mediante el método de Taylor, solicitand
 \section{Descripción del material}
 \label{3:sec:2}
   Los materiales requeridos para la realización del trabajo han sido: 
+<<<<<<< HEAD
 \begin{enumerate}
 
   \item
@@ -21,12 +22,20 @@ estiman la aproximación $f(x) = sin(x)$ mediante el método de Taylor, solicitand
   \item
    El sistema operativo empleado es Bardinux, adaptación de la distribución de Linux 'kubuntu' a las necesidades
  en cuanto a Software de los miembros de la comunidad universitaria de la ULL.
+=======
+\begin{itemize}
+ 
   \item
-    CPU speed	800.000Hz
+   CPU type: Intel(R) Core(TM) i3-2328M CPU @ 2.50GHz
   \item
-    cache size	3072 KB
+   vendor ID	GenuineIntel
+>>>>>>> 3d5ae329064b524c1166ae8b3da21f7cb57e890e
+  \item
+    CPU speed	1200.000Hz
+  \item
+    cache size	2048 KB
   
-\end{enumerate}
+\end{itemize}
 
 
 

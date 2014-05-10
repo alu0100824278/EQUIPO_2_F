@@ -203,7 +203,11 @@
 
 \input{tex/apendice1.tex}
 
+<<<<<<< HEAD
 \chapter{Título del Apéndice 2} 
+=======
+\chapter{Título del Apéndice 2}
+>>>>>>> 3d5ae329064b524c1166ae8b3da21f7cb57e890e
 \label{appendix:2}
 
 \input{tex/apendice2.tex}
