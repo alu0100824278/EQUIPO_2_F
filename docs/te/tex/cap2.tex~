@@ -24,22 +24,29 @@ dando un método nuevo para logaritmos computacionales (1717).
 
 \section{Cálculo de la serie de Taylor}
 \label{2:sec:2}
-  Sea $f(x)$ una función definida en un intervalo que contiene al punto $a$, con derivadas en todos los órdenes.
-  
-  El polinomio de primer grado 
-\begin{center}
-$p_{1}(x) = f(a) + f ' (a) (x-a)$ 
-\end{center}
-tiene el mismo valor que $f(x)$ en el punto $x=a$ y también, como se comprueba fácilmente, la misma derivada que $f(x)$ en este punto. Su gráfica es una recta
-tangente a la gráfica de $f(x)$ en el punto $a$.
 
-  Es posible elegir un polinomio de segundo grado, 
+  Una recta tangente es la mejor aproximación lineal a la gráfica de $f$ en las cercanías del punto de tangencia $(x_{0}, f(x_{0}))$, es aquella recta que pasa 
+por el mencionado punto y tiene la misma pendiente que la curva en ese punto \footnote{primera derivada en el punto}, lo que hace que la recta tangente y la curva sean prácticamente 
+indistinguibles en las cercanías del punto de tangencia. Si x se encuentra "lejos" de $x_{0}$, la recta tangente ya no funciona como aproximador, para esto se tiene que encontrar función 
+(no lineal) que cumpla con el propósito. 
+
+  La recta tangente es un polinomio de grado 1, el más sencillo tipo de función que se puede encontrar: 
+
+ \begin{center}
+$p_{1}(x) = f(a) + f ' (a) (x-a)$ 
+
+\end{center}
+  
+tiene el mismo valor que $f(x)$ en el punto $x=a$ y también, como se comprueba fácilmente, la misma derivada que $f(x)$ en este punto. 
+ 
+Es posible elegir un polinomio de segundo grado, 
 \begin{center}
 $p_{2}(x) = f(a) + f ' (a) (x-a) + \frac{1}{2} f '' (a) (x-a) ^ 2$
+
 \end{center}
-  tal que en el punto $x=a$ tenga el mismo valor que $f(x)$ y también valores iguales para su primera y segunda derivada. Su gráfica en el punto $a$ 
-se acercará a la de $f(x)$ más que la anterior. Es natural esperar que si construimos un polinomio que en $x=a$ tenga las mismas $n$ primeras derivadas 
-que $f(x)$ en el mismo punto, este polinomio se aproximará más a $f(x)$ en los puntos $x$ próximos a $a$. Así obtenemos la siguiente igualdad aproximada, 
+tal que en el punto $x=a$ tenga el mismo valor que $f(x)$ y también valores iguales para su primera y segunda derivada. Su gráfica en el punto $a$ 
+se acercará a la de $f(x)$ más que la anterior. Se puede esperar que si se construye un polinomio que en $x=a$ tenga las mismas $n$ primeras derivadas 
+que $f(x)$ en el mismo punto, este polinomio se aproximará más a $f(x)$ en los puntos $x$ próximos a $a$. Así se obtiene la siguiente igualdad aproximada, 
 que es la fórmula de Taylor:
 
 \begin{center} 
@@ -60,6 +67,50 @@ $f(x) = sin(a) + cos(a) (x-a) - \frac{1}{2!} sin (a) (x-a) ^ 2 - \frac{1}{3!} co
 $\frac{1}{4!} sin (a) (x-a) ^ 4 + ... + \frac{1}{n!} f ^ n(a) (x-a) ^ n$
 
 \end{center}
+
+\section{Fórmula de Taylor y de Maclaurin}
+\label{2:sec:3}
+
+ Se le denomina fórmula de Taylor de $f$ en $x_{0}$ a la expresión:
+ 
+\begin{center}
+$f(x) = f(a) + f '(a) (x-a) + \frac{1}{2!} f '' (a) (x-a) ^ 2 + ...... + \frac{1}{n!} f ^ n(a) (x-a) ^ n + E_{n}$
+
+\end{center}
+
+Y fórmula de Maclaurin de $f$, donde $a = 0$:
+
+\begin{center}
+$f(x) = f(0) + f'(0)x + \frac{1}{2!} f^n(0) x^2 + ... + \frac{1}{n!}f^n(0)x^n + E_{n}$
+
+\end{center}
+
+En el caso de $f(x) = sin(x)$ la serie de Maclaurin sería: 
+
+\begin{center}
+$sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} +(-1)^(n+1) \frac {x^{2n+1}}{(2n+1)!} + E_{2n+1}$
+
+\end{center}
+
+Esto ocurre, porque las derivada de orden par, evaluadas en cero se anulan y las impares se van alternando con valores 1 y -1. A dicha función se le conoce 
+como función impar. 
+
+Expresada en notación sumatoria queda: 
+
+\begin{center}
+
+$sen(x)= \sum\limits_{i=1}^{n}(-1)^n+1 \frac{x^(2n+1)}{(2n+1)!} + E_{2n+1}$
+
+\end{center}
+
+
+   
+
+
+
+
+
+
 
 
 

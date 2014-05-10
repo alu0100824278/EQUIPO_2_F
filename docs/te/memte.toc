@@ -6,6 +6,7 @@
 \contentsline {chapter}{\numberline {3}Fundamentos te\'oricos}{3}
 \contentsline {section}{\numberline {3.1}Historia}{3}
 \contentsline {section}{\numberline {3.2}C\'alculo de la serie de Taylor}{3}
+\contentsline {section}{\numberline {3.3}F\'ormula de Taylor y de Maclaurin}{4}
 \contentsline {chapter}{\numberline {4}Procedimiento experimental}{5}
 \contentsline {section}{\numberline {4.1}Descripci\'on de los experimentos}{5}
 \contentsline {section}{\numberline {4.2}Descripci\'on del material}{5}
