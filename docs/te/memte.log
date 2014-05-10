@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  10 MAY 2014 11:55
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  10 MAY 2014 14:33
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -260,12 +260,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
- 1802 strings out of 495062
- 21992 string characters out of 1182644
+ 1796 strings out of 495062
+ 21905 string characters out of 1182644
  76798 words of memory out of 3000000
- 4927 multiletter control sequences out of 15000+50000
+ 4921 multiletter control sequences out of 15000+50000
  14124 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,7n,27p,320b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (19 pages, 24296 bytes).
+Output written on memte.dvi (19 pages, 23584 bytes).
