@@ -55,7 +55,7 @@ La que hemos utilizado para realizar estos experimentos tiene las siguientes car
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{images/grafico.eps}
+\includegraphics[width=0.75\textwidth]{images/grafi.eps}
 \caption{Gráfica de la función original}
 \label{fig:1}
 \end{center}
@@ -73,23 +73,23 @@ La que hemos utilizado para realizar estos experimentos tiene las siguientes car
 \begin{itemize}
 \item[$\circ$] Experimento 1:
  Polinomio de taylor de grado 4, punto $c=10.0$.
-El punto de evalución fue cambiando. A medida que se acercaba al punto $c$, el error fue disminuyendo. La diferencia del tiempo de CPU 
+El punto de evalución ($x$) fue cambiando. A medida que se acercaba al punto $c$, el error fue disminuyendo. La diferencia del tiempo de CPU 
 es mínima. 
 \item[$\circ$] Experimento 2:
  Polinomio de Taylor de grado 4, punto $x=2.0$
-El punto $c$ fue cambiando. Cuando el punto $c$ es 0, tanto el valor de aproximación como el de error son iguales pero de signos diferentes. 
-Si el valor otorgado a $c$ es negativo el error que se obtiene es mucho mas grande que si el valor de $c$ es positivo. 
+El punto $c$ fue cambiando. Cuando el punto $c$ es 0, tanto el valor de aproximación como el de error son iguales pero de signos opuestos. 
+Si el valor otorgado a $c$ se encuentra lejos de $x$ el error es mayor. 
 
 \item[$\circ$] Experimento 3: 
  Polinomio de Taylor de grado 10, punto $c=10.0$.
 El punto $x$ que está más alejado del punto $c$ contien el mayor valor de error. 
-En $x=5$ el tiempo de CPU es mayor que el resto. 
+En $x=5$ el tiempo de CPU es mayor que en el resto de experimentos realizados. 
 
 \item[$\circ$] Experimento 4:
  Polinomio de Taylor de grado 100, punto $c=-1.0$. 
 Se ha cambiado sólo el número de los decimales de $x$, el error para $x=-0.9$ es menor que el de para 
 $x=-0.999999$. 
-El tiempo de CPU que se registró para ambos valores de $x$ contienen una diferencia mínima. 
+El tiempo de CPU que se registró para ambos valores de $x$ contienen una diferencia mínima. Es le mayor de los tiempos registrados en los 4 experimentos.  
 
 \end{itemize}
 

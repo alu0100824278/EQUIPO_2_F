@@ -55,7 +55,7 @@ Grado  & Punto c & Punto x & Aproximacion       & Error             & Tiempo CPU
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
 Grado  & Punto c & Punto x & Aproximacion       & Error             & Tiempo CPU            \\ \hline
-100    & -1.0    &-0.99999 &-0.8414655817427645 &-5.40306513208133e & 00.06290507316589355  \\ \hline
+100    & -1.0    &-0.99999 &-0.8414655817427645 &-5.40306513208133e & 0.06290507316589355   \\ \hline
 100    & -1.0    & -0.9    & -0.783326909627484 &-0.0581440751804130& 0.06340909004211426   \\ \hline
 
 \end{tabular}

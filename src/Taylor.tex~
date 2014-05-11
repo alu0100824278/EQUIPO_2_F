@@ -19,17 +19,11 @@ Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproxi
  [4, -2.0, 2.0, -0.559778321379882, -0.349519105445799, 0.008683919906616211]
 Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
  [4, 0.0, 2.0, 0.666666666666667, -0.666666666666667, 0.007463932037353516]
-
 Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
  [4, 2.0, 2.0, 0.909297426825682, 0, 0.007899999618530273]
 Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
  [4, 7.0, 2.0, 21.4904658168047, -20.8334792180859, 0.007979869842529297]
 
-
-Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
- [100, -1.0, -0.99999, -0.841465581742764, -5.40306513208133e-6, 0.06290507316589355]
-Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
- [100, -1.0, -0.9, -0.783326909627484, -0.0581440751804130, 0.06340909004211426]
 Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
  [10, 10.0, -10.0, 2226636.13194962, -2226636.67597073, 0.012552976608276367]
 Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
@@ -44,3 +38,57 @@ Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproxi
  [10, 10.0, 9.9, -0.457535893775321, -0.0864852171140484, 0.012012958526611328]
 Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
  [10, 10.0, 10.0, -0.544021110889370, 0, 0.014500856399536133]
+
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [100, -1.0, -0.99999, -0.841465581742764, -5.40306513208133e-6, 0.06290507316589355]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [100, -1.0, -0.9, -0.783326909627484, -0.0581440751804130, 0.06340909004211426]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [2, 3.0, 6.0, -3.46389751801087, 3.60501752607074, 0.0072820186614990234]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [3, 2.0, 1.0, 0.801437743868793, 0.107859682956889, 0.007912874221801758]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [3, 2.0, 1.0, 0.801437743868793, 0.107859682956889, 0.007887840270996094]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [5, 2.0, 3.0, 0.142279185436733, 0.767018241388949, 0.009128808975219727]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [5, 5.0, 4.0, -0.758166321540749, -0.200757953122390, 0.009124040603637695]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [3, 6.0, 5.0, -0.939849654641435, 0.660434156442509, 0.007855892181396484]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [5, 2.0, 3.0, 0.142279185436733, 0.767018241388949, 0.009379863739013672]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [10, 5.0, 2.0, 0.909121384897390, -1.86804565956053, 0.012048006057739258]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [4, 5.0, 2.0, 0.545358812527732, -1.50428308719087, 0.0090789794921875]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [22, 3.0, 5.0, -0.958924274663139, 1.10004428272301, 0.02031707763671875]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [2, 3.0, 3.0, 0.141120008059867, 0, 0.007938861846923828]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [5, 65.0, 1.0, 5584516.50249557, -5584515.67566689, 0.00925588607788086]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [8, 4.0, 6.0, -0.278733170417951, -0.478069324889978, 0.010983943939208984]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [5, 8.0, 6.0, -0.193986050653088, 1.18334429727647, 0.009267807006835938]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [200, 8.0, 7.0, 0.656986598718789, 0.332371647904593, 0.12583589553833008]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [82, 5.0, 4.0, -0.756802495307928, -0.202121779355210, 0.0534970760345459]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [20, 5.0, 6.0, -0.279415498198926, -0.679508776464212, 0.017615795135498047]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [5, 6.0, 3.0, -0.469162463216577, 0.189746965017651, 0.00924992561340332]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [25, 3.0, 6.0, -0.279415498198926, 0.420535506258793, 0.02156209945678711]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [25, 3.0, 6.0, -0.279415498198926, 0.420535506258793, 0.02101302146911621]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [5, 6.0, 3.0, -0.469162463216577, 0.189746965017651, 0.00925898551940918]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [10, 2.0, 3.0, 0.141119995813093, 0.768177431012589, 0.012080907821655273]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [25, 6.0, 3.0, 0.141120008059865, -0.420535506258791, 0.0209200382232666]
+Grado del Polinomio (n)|| Punto Central (c) || Punto de Evaluacion (x) || Aproximacion || Error || Tiempo CPU 
+ [25, 1.0, 3.0, 0.141120008059867, 0.700350976748029, 0.021146059036254883]

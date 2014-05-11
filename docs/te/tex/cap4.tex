@@ -2,28 +2,22 @@
 % Chapter 4: Conclusiones y Trabajos Futuros 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
- Se han realizado varias pruebas con el Polinomio de Taylor, d\'andoles distintos valores tanto al grado, como al punto central c y al punto x. 
+ Tras la realizaci\'on de varios c\'odigos en lenguaje Python, los cuales constan de diferentes algoritmos implementados que buscan la soluci\'on al 
+planteamiento de dichos c\'odigos, se ha conseguido hallar la aproximaci\'on de f(x)=sin(x) mediante el m\'etodo de Taylor, el error establecido y el tiempo de CPU. 
+Para poder analizar y comparar los resultados obtenidos se han llevado a cabo distintos experimentos solicitando en cada uno el grado del polinomio de Taylor,
+ el punto central c y el punto x. 
 
 \begin{itemize}
+\item
+Con dichos valores, se puede afirmar que se debe de aumentar el grado del polinomio tantas veces como sea posible, escoger los puntos x y c con la menor distancia 
+existente entre ambos y un mayor n\'umero de cifras decimales, se lograr\'a una mejor aproximaci\'on con un margen menor de error.
+En el caso de x = c, el teorema de aproximaci\'on no es adecuado porque solo estaremos calculando la imagen de la funci\'on en el punto c y no una 
+aproximaci\'on a la funci\'on.
+
 
 \item
- Observando los datos obtenidos, se registr\'o una mayor margen de error cuando la distancia entre el punto  c  y el punto  x  se hac\'ia mayor, a medida que nos 
-acercamos al punto evaluado, el error disminuye consideradamente. 
-\item
-Cuando los valores de c y x son iguales el error es nulo. Esto se debe a que, el polinomio de Taylor apartir de la primera derivada de la funci\'on estudiada, 
-cada termino se multiplica por la diferencia entre el punto x y el punto c.
-
-\item
-En el experimento 3 se le volvio a dar los mismo valores que en el experimento 1, solo aument\'o el grado del polinomio. Comparando ambos resultados, se observa 
-que el error en el caso 3 es mayor para los mismos valores dados. Esto significa que cuanto m\'as grande sea el grado del polinomio, obtendremos una mejor aproximaci\'on 
-de la funci\'on estudiada.
-
-\item
-
-En el \'ultimo experimento realizado se observa que al agregar m\'as decimales al punto x el error aumenta.
-
-\item
-Cuando se le asigna un mayor grado al polinomio de Taylor, el tiempo de CPU en calcularlo va aumentando. Aunque no se ha llegado podido registrar que demore 1s. El tiempo 
-que tarda es practicamente insignificante, como la diferencia que existe entre el polinomio de grado 4 y el de grado 100. 
+Al analizar los datos del tiempo de CPU se concluye que al programa Python le toma más tiempo realizar las operaciones con un polinomio de grado 10 que con 
+uno de grado 4. Con esto se peude afirmar que cuanto mayor sea el grado del polinomio a calcular m\'as demorar\'a en hacer el c\'alculo, aunque nostros no 
+puedamos percibir la diferencia ya que se est\'a trabajando con cent\'esimas y mil\'esimas de segundos. 
 
 \end{itemize}

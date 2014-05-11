@@ -1,4 +1,4 @@
-\section{Explicacion del Algoritmo}
+\section{Algoritmo}
 \label{Apendice2:label}
 
 \begin{center}
@@ -21,14 +21,14 @@ y luego que se cree y guarde en el archivo grafico.png.
 \end{footnotesize}
 \end{center}
 
-\section{Explicacion del algoritmo del modulo}
+\section{Modulo}
 \label{Apendice2:label2}
 
 \begin{center}
 \begin{footnotesize}
 \begin{verbatim}
 
-Al igual que en el programa principal, importaremos las librerias 
+Al igual que en el programa principal, importaremos las librer\'ias 
 que utilizaremos posteriormente. 
 Primeramente, definimos la funcion factorial, que luego sera usada 
 en la otra funcion para calcular el polinomio de Taylor. factorial(numero) 
