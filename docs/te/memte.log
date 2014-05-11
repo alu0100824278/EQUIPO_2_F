@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.13)  11 MAY 2014 17:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  11 MAY 2014 20:23
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -217,7 +217,7 @@ Cap\'{\i }tulo 2.
 ]
 Cap\'{\i }tulo 3.
 (./tex/cap2.tex
-LaTeX Font Info:    Try loading font information for U+lasy on input line 12.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 11.
  (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
@@ -261,19 +261,19 @@ Cap\'{\i }tulo 5.
 ]
 Ap\'{e}ndice A.
 (./tex/apendice1.tex
-Overfull \hbox (3.17867pt too wide) in paragraph at lines 44--44
+Overfull \hbox (3.17867pt too wide) in paragraph at lines 42--42
 []\OT1/cmtt/m/n/9 numero = int(raw_input("Introduzca el grado que desea que ten
 ga el Polinomio de Taylor: "))[] 
  []
 
 
-Overfull \hbox (78.77779pt too wide) in paragraph at lines 44--44
+Overfull \hbox (78.77779pt too wide) in paragraph at lines 42--42
 []\OT1/cmtt/m/n/9 centro = float(raw_input("Introduzca el punto central donde d
 esea que se evalue el Polinomio de Taylor: "))[] 
  []
 
 
-Overfull \hbox (40.97823pt too wide) in paragraph at lines 44--44
+Overfull \hbox (40.97823pt too wide) in paragraph at lines 42--42
 []\OT1/cmtt/m/n/9 [r'$2\pi$',r'$-\frac{3\pi}{2}$',r'$-\pi$',r'$-\frac{\pi}{2}$'
 ,r'$0$',r'$+\frac{\pi}{2}$',r'$+\pi$',[] 
  []
@@ -284,8 +284,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [9
 
 
-]
-[10]) [11]
+])
+[10]
 Ap\'{e}ndice B.
 (./tex/apendice2.tex
 Overfull \hbox (7.90361pt too wide) in paragraph at lines 20--20
@@ -293,9 +293,9 @@ Overfull \hbox (7.90361pt too wide) in paragraph at lines 20--20
 2 en el rango de la variable y1[] 
  []
 
-[12
+[11
 
-]) (./memte.bbl [13]) [14
+]) (./memte.bbl [12]) [13
 
 ] (./memte.aux)
 
@@ -303,12 +303,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1800 strings out of 495062
- 21956 string characters out of 1182644
+ 1798 strings out of 495062
+ 21926 string characters out of 1182644
  83798 words of memory out of 3000000
- 4925 multiletter control sequences out of 15000+50000
+ 4923 multiletter control sequences out of 15000+50000
  14124 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,8n,27p,256b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,8n,27p,261b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (22 pages, 38224 bytes).
+Output written on memte.dvi (21 pages, 38208 bytes).

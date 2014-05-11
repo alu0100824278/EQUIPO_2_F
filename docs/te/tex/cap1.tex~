@@ -3,7 +3,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
   A lo largo de este curso hemos aprendido a implementar diferentes códigos en $Python$, los cuales han logrado generar nuestra curiosidad por saber 
-más. Esto nos permitió ir más allá y poder fusionar dicho lengutaje de programación con el procesador de texto $\LaTeX$ y una clase de este, el $Bearmer$, que utilizamos para realizar presentaciones. A partir de todos ellos, hemos conseguido llevar a cabo esta memoria. 
+más. Esto nos permitió ir más allá y poder fusionar dicho lenguaje de programación con el procesador de texto $\LaTeX$ ~\cite{Lamport:LDP94}
+y una clase de este, el $Bearmer$, que utilizamos para realizar presentaciones. A partir de todos ellos, hemos conseguido llevar a cabo esta memoria. 
 %---------------------------------------------------------------------------------
 \section{Objetivo principal:}
 \label{1:sec:1}

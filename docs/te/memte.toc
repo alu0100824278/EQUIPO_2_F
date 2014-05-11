@@ -16,7 +16,7 @@
 \contentsline {chapter}{\numberline {A}Programa en Python}{9}
 \contentsline {section}{\numberline {A.1}Algoritmo principal}{9}
 \contentsline {section}{\numberline {A.2}Algoritmo del m\'odulo}{10}
-\contentsline {chapter}{\numberline {B}Explicaci\'on del programa en Python}{12}
-\contentsline {section}{\numberline {B.1}Algoritmo}{12}
-\contentsline {section}{\numberline {B.2}Modulo}{12}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{13}
+\contentsline {chapter}{\numberline {B}Explicaci\'on del programa en Python}{11}
+\contentsline {section}{\numberline {B.1}Algoritmo}{11}
+\contentsline {section}{\numberline {B.2}Modulo}{11}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{12}

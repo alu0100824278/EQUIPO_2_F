@@ -8,15 +8,15 @@
   Brook Taylor ~\cite{URL:XML1} nació el 18 de agosto de 1685 en Edmonton. Hijo de John Taylor,
 del Parlamento de Bifrons, Kent, y de Olivia Tempest (hija de Sir Nicholas Tempest). 
 
-  En "Los métodos de incrementación directa e inversa" de Taylor (1715) agregaba a las 
+  En << Los métodos de incrementación directa e inversa >> de Taylor (1715) agregaba a las 
 matemáticas una nueva rama llamada ahora  <<El cálculo de las diferencias finitas>> , 
 e inventó la integración por partes y descubrió la célebre fórmula conocida como la Serie de Taylor,
 la importancia de esta fórmula no fue reconocida hasta 1772, cuando Lagrange proclamó los 
 principios básicos del Cálculo Diferencial. Taylor también desarrolló los principios fundamentales 
 de la perspectiva en "Perspectivas Lineales" (1715). En su Methodus Incrementorum Directa et Inversa 
 (Londres, 1715) desarrolló una nueva parte dentro de la investigación matemática, 
-que hoy se llama cálculo de las diferencias finitas. Junto con "Los nuevos principios de 
-la perspectiva lineal". Taylor da cuenta de un experimento para descubrir las leyes de la 
+que hoy se llama cálculo de las diferencias finitas. Junto con << Los nuevos principios de 
+la perspectiva lineal >>. Taylor da cuenta de un experimento para descubrir las leyes de la 
 atracción magnética (1715) y un método no probado para aproximar las raíces de una ecuación 
 dando un método nuevo para logaritmos computacionales (1717). 
 
@@ -103,8 +103,7 @@ $sen(x)= \sum\limits_{i=1}^{n}(-1)^{n+1} \frac{x^{2n+1}}{(2n+1)!} + E_{2n+1}$
 
 \end{center}
 
-\section{Cálculo de aproximaciones y estimación del error}
-\label{2:sec:4}
+
 
    
 
