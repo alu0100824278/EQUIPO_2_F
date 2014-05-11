@@ -8,16 +8,14 @@ Para poder analizar y comparar los resultados obtenidos se han llevado a cabo di
  el punto central c y el punto x. 
 
 \begin{itemize}
-
+\item
 Con dichos valores, se puede afirmar que se debe de aumentar el grado del polinomio tantas veces como sea posible, escoger los puntos x y c con la menor distancia 
 existente entre ambos y un mayor n\'umero de cifras decimales, se lograr\'a una mejor aproximaci\'on con un margen menor de error.
 En el caso de x = c, el teorema de aproximaci\'on no es adecuado porque solo estaremos calculando la imagen de la funci\'on en el punto c y no una 
 aproximaci\'on a la funci\'on.
 
-\end{itemize}
 
-\begin{itemize}
-
+\item
 Al analizar los datos del tiempo de CPU se concluye que al programa Python le toma más tiempo realizar las operaciones con un polinomio de grado 10 que con 
 uno de grado 4. Con esto se peude afirmar que cuanto mayor sea el grado del polinomio a calcular m\'as demorar\'a en hacer el c\'alculo, aunque nostros no 
 puedamos percibir la diferencia ya que se est\'a trabajando con cent\'esimas y mil\'esimas de segundos. 
