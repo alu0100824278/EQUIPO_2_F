@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  11 MAY 2014 20:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  11 MAY 2014 20:47
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -222,9 +222,9 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 11.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 29.
+(Font)              <9> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 28.
  [3
 
 ])
@@ -303,12 +303,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1798 strings out of 495062
- 21926 string characters out of 1182644
+ 1791 strings out of 495062
+ 21830 string characters out of 1182644
  83798 words of memory out of 3000000
- 4923 multiletter control sequences out of 15000+50000
+ 4916 multiletter control sequences out of 15000+50000
  14124 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,8n,27p,261b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,8n,27p,265b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (21 pages, 38208 bytes).
+Output written on memte.dvi (21 pages, 38064 bytes).
