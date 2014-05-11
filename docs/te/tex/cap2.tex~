@@ -24,9 +24,9 @@ dando un m\'etodo nuevo para logaritmos computacionales (1717).
 \section{C\'alculo de la serie de Taylor}
 \label{2:sec:2}
 
-  Una recta tangente es la mejor aproximaci\'on lineal a la gr\'afica de $f$ en las cercan\'ias del punto de tangencia $(x_{a}, f(x_{a}))$, que es aquella recta que pasa
+  Una recta tangente es la mejor aproximaci\'on lineal a la gr\'afica de $f$ en las cercan\'ias del punto de tangencia $(a, f(x))$, que es aquella recta que pasa
 por el mencionado punto y tiene la misma pendiente que la curva en ese punto \footnote{Primera derivada en el punto}, lo que hace que la recta tangente y la curva sean pr\'acticamente
-indistinguibles en las cercan\'ias del punto de tangencia. Si x se encuentra ''lejos'' de $x_{a}$, la recta tangente ya no funciona como aproximador, para esto se tiene que encontrar funci\'on
+indistinguibles en las cercan\'ias del punto de tangencia. Si x se encuentra ''lejos'' de $a$, la recta tangente ya no funciona como aproximador, para esto se tiene que encontrar funci\'on
 (no lineal) que cumpla con el prop\'osito.
 
   La recta tangente es un polinomio de grado 1, el m\'as sencillo tipo de funci\'on que se puede encontrar:
