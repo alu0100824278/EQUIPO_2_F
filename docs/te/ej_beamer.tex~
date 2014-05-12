@@ -81,7 +81,7 @@ Además el teorema permite acotar el error obtenido mediante dicha estimación.
 Sea I un intervalo, $c$ un punto de I, $f$ una función definida en I. Supongamos que $f$ es derivable en todos los puntos hasta el orden
 $n-1$ y que existe $f ^ n (c)$. Entonces:
 
-
+\[\quad \lim_{x\to\infty} \frac{1}{(x-c)^n} [ f(x) - f(c) - f '(c) (x-c) - \frac{1}{2!} f '' (c) (x-c) ^ 2 - ...- \frac{1}{n!} f ^ n(c) (x-c) ^ n ] = \text 0\]
 
 \end{definicion}
 
@@ -263,17 +263,19 @@ def taylor1(x, numero, centro):
 \end{verbatim}
 \end{block}
 }
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Gráfica}
-\begin{frame}
-\begin{figure}[!th]
+\frametitle{Gráfica sin(x)}
+\begin{block}{Gráfica}
 \begin{center}
-\includegraphics[width=0.75\textwidth]{grafi.eps}
-
+\begin{figure}[!th]
+\includegraphics[width=0.75\textwidth]{images/grafica.png}
 \caption{Gráfica de la función original}
-\label{fig:1}
-\end{center}
+
 \end{figure}
-\end{frame}
+\end{center}
+\end{block}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \section{Bibliografía}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  

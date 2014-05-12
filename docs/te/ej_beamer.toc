@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Motivaci\IeC {\'o}n y objetivos}{8}{0}{1}
+\beamer@sectionintoc {2}{Fundamentos te\IeC {\'o}ricos}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{Teorema de Taylor}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Polinomio de Taylor}{11}{0}{2}
+\beamer@sectionintoc {3}{Procedimiento experimental}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{Descripci\IeC {\'o}n de los experimentos}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Descripci\IeC {\'o}n del material}{17}{0}{3}
+\beamer@subsectionintoc {3}{3}{An\IeC {\'a}lisis de los resultados}{21}{0}{3}
+\beamer@sectionintoc {4}{Algoritmo}{25}{0}{4}
+\beamer@sectionintoc {5}{Gr\IeC {\'a}fica}{26}{0}{5}
+\beamer@sectionintoc {6}{Bibliograf\IeC {\'\i }a}{27}{0}{6}
