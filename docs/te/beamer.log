@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  12 MAY 2014 17:24
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  12 MAY 2014 17:34
 entering extended mode
  %&-line parsing enabled.
-**ej_beamer.tex
-(./ej_beamer.tex
+**beamer.tex
+(./beamer.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
@@ -876,7 +876,7 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemeinfolines.
 sty
 Package: beamerouterthemeinfolines 2010/07/10  (rcs-revision 445340293dde)
-)) (./ej_beamer.aux
+)) (./beamer.aux
 
 LaTeX Warning: Label `tab' multiply defined.
 
@@ -887,7 +887,7 @@ LaTeX Warning: Label `tab' multiply defined.
 LaTeX Warning: Label `tab' multiply defined.
 
 )
-\openout1 = `ej_beamer.aux'.
+\openout1 = `beamer.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -970,10 +970,10 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
- (./ej_beamer.out)
-(./ej_beamer.out)
+ (./beamer.out)
+(./beamer.out)
 \@outlinefile=\write5
-\openout5 = `ej_beamer.out'.
+\openout5 = `beamer.out'.
 
 \AtBeginShipoutBox=\box54
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -1042,28 +1042,28 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-theorem-dic
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./ej_beamer.nav)
+) (./beamer.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 41.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ej_beamer.toc)
-[2
-
-] (./ej_beamer.toc) [3
-
-] (./ej_beamer.toc) [4
-
-] (./ej_beamer.toc) [5
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./beamer.toc) [2
 
 ]
-(./ej_beamer.toc) [6
+(./beamer.toc) [3
 
-] (./ej_beamer.toc) [7
+] (./beamer.toc) [4
 
-] (./ej_beamer.toc) [8
+] (./beamer.toc) [5
+
+] (./beamer.toc)
+[6
+
+] (./beamer.toc) [7
+
+] (./beamer.toc) [8
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 67.
@@ -1119,61 +1119,78 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-! Extra }, or forgotten \endgroup.
-l.271 }
-       
-? x
- 
+<images/grafica.png, id=903, 440.39531pt x 331.99031pt>
+File: images/grafica.png Graphic file (type png)
+
+<use images/grafica.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+(./tables/table.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./images/grafica.png (PNG copy)>] [30pdfTeX warning (ext4): destination w
+ith the same identifier (name{tab}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.288 \end{frame}
+                 ] (./tables/table2.texpdfTeX warning (ext4): destination with 
+the same identifier (name{tab}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 \label{tab}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{tab}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 \label{tab}
+                ) [31
+
+] [32
+
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonbook.pdf>]
+\tf@nav=\write6
+\openout6 = `beamer.nav'.
+
+\tf@toc=\write7
+\openout7 = `beamer.toc'.
+
+\tf@snm=\write8
+\openout8 = `beamer.snm'.
+
+ (./beamer.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 15057 strings out of 495061
- 280241 string characters out of 1182621
+ 15130 strings out of 495061
+ 281804 string characters out of 1182621
  352621 words of memory out of 3000000
- 17750 multiletter control sequences out of 15000+50000
+ 17802 multiletter control sequences out of 15000+50000
  12328 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 49i,16n,62p,425b,792s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation28} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation31} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation29} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation32} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.7} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.6.2.31} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.6.1.29} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.6} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.5} has been referenced but does not exist,
- replaced by a fixed one
-
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmtt8.pfb>
-Output written on ej_beamer.pdf (27 pages, 336370 bytes).
+ 49i,16n,62p,422b,792s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmtt8.pfb>
+Output written on beamer.pdf (32 pages, 379209 bytes).
 PDF statistics:
- 963 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1101 PDF objects out of 1200 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

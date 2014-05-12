@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  11 MAY 2014 20:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  12 MAY 2014 17:27
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -244,13 +244,13 @@ Overfull \hbox (46.81557pt too wide) in paragraph at lines 20--29
 [][] 
  []
 
-
-Overfull \hbox (48.64058pt too wide) in paragraph at lines 36--47
+) (./tables/table2.tex
+Overfull \hbox (48.64058pt too wide) in paragraph at lines 3--14
 [][] 
  []
 
 
-Overfull \hbox (53.35515pt too wide) in paragraph at lines 55--62
+Overfull \hbox (53.35515pt too wide) in paragraph at lines 22--29
 [][] 
  []
 
@@ -303,8 +303,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1791 strings out of 495062
- 21830 string characters out of 1182644
+ 1794 strings out of 495062
+ 21872 string characters out of 1182644
  83798 words of memory out of 3000000
  4916 multiletter control sequences out of 15000+50000
  14124 words of font info for 52 fonts, out of 3000000 for 9000

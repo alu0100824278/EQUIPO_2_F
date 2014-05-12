@@ -70,6 +70,7 @@ Aprendizaje orientado al lenguaje de programación $Python$, el procesador de te
 
 \subsection{Teorema de Taylor}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 \begin{frame}
 \frametitle{Teorema de Taylor}
 
@@ -80,9 +81,9 @@ Además el teorema permite acotar el error obtenido mediante dicha estimación.
 \begin{definicion}
 Sea I un intervalo, $c$ un punto de I, $f$ una función definida en I. Supongamos que $f$ es derivable en todos los puntos hasta el orden
 $n-1$ y que existe $f ^ n (c)$. Entonces:
-
-\[\quad \lim_{x\to\infty} \frac{1}{(x-c)^n} [ f(x) - f(c) - f '(c) (x-c) - \frac{1}{2!} f '' (c) (x-c) ^ 2 - ...- \frac{1}{n!} f ^ n(c) (x-c) ^ n ] = \text 0\]
-
+\tiny{
+\[\quad \lim_{x\to c} \frac{1}{(x-c)^n} [ f(x) - f(c) - f '(c) (x-c) - \frac{1}{2!} f '' (c) (x-c) ^ 2 - ...- \frac{1}{n!} f ^ n(c) (x-c) ^ n ] = \text 0\]
+}
 \end{definicion}
 
 \end{frame}
@@ -245,8 +246,11 @@ def taylor1(x, numero, centro):
   f = open("Taylor.tex", 'a')
 \end{verbatim}
 \end{block}
+
 \begin{block}{ }
+
 \begin{verbatim}
+
   f.write('Grado del Polinomio (n) Punto Central (c)  Punto de Evaluacion (x)  
   Aproximacion
   Error Tiempo CPU \n ')
@@ -260,6 +264,7 @@ def taylor1(x, numero, centro):
   print(f.read())
   f.close()
   return taylor1
+
 \end{verbatim}
 \end{block}
 }
@@ -276,6 +281,24 @@ def taylor1(x, numero, centro):
 \end{center}
 \end{block}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Tablas}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\subsection{Experimento 1 y Experimento 2}
+\begin{frame}
+\frametitle{Tablas}
+
+\input{tables/table.tex}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\subsection{Experimento 3 y Experimento 4}
+\begin{frame}
+\frametitle{Tablas}
+
+\input{tables/table2.tex}
+
+\end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \section{Bibliografía}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
