@@ -1,8 +1,0 @@
-\beamer@endinputifotherversion {3.10pt}
-\beamer@sectionintoc {1}{Motivaci\IeC {\'o}n y objetivos}{6}{0}{1}
-\beamer@sectionintoc {2}{Fundamentos te\IeC {\'o}ricos}{8}{0}{2}
-\beamer@sectionintoc {3}{Procedimiento experimental}{9}{0}{3}
-\beamer@subsectionintoc {3}{1}{Descripci\IeC {\'o}n de los experimentos}{9}{0}{3}
-\beamer@subsectionintoc {3}{2}{Creaci\IeC {\'o}n de diapositivas}{10}{0}{3}
-\beamer@subsectionintoc {3}{3}{Descripci\IeC {\'o}n del material:}{14}{0}{3}
-\beamer@sectionintoc {4}{Bibliograf\IeC {\'\i }a}{16}{0}{4}

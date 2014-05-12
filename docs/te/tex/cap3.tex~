@@ -55,7 +55,7 @@ La que hemos utilizado para realizar estos experimentos tiene las siguientes car
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.10\textwidth]{images/grafi.eps}
+\includegraphics[width=0.75\textwidth]{images/grafi.eps}
 \caption{Gráfica de la función original}
 \label{fig:1}
 \end{center}

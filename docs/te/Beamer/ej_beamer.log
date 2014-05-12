@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  9 MAY 2014 20:07
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  12 MAY 2014 14:27
 entering extended mode
  %&-line parsing enabled.
 **ej_beamer.tex
@@ -1049,18 +1049,18 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] (./ej_beamer.toc) [5
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 67.
+(./ej_beamer.toc) [6
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [6
-
-] [7
+) [7
 
 ] [8
 
@@ -1068,10 +1068,10 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ] [10
 
-]
-[11
+] [11
 
-] [12
+]
+[12
 
 ] [13
 
@@ -1081,44 +1081,69 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ] [16
 
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonbook.pdf>]
-\tf@nav=\write6
-\openout6 = `ej_beamer.nav'.
+] [17
 
-\tf@toc=\write7
-\openout7 = `ej_beamer.toc'.
+] [18
 
-\tf@snm=\write8
-\openout8 = `ej_beamer.snm'.
+] [19
 
- (./ej_beamer.aux)
+] [20
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
+] [21
+
+] [22
+
+] [23
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+
+LaTeX Warning: File `grafi.eps' not found on input line 275.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+! LaTeX Error: Unknown graphics extension: .eps.
 
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.275 \end{frame}
+                 
+? x
+ 
 Here is how much of TeX's memory you used:
- 15037 strings out of 495061
- 280918 string characters out of 1182621
- 350621 words of memory out of 3000000
- 17764 multiletter control sequences out of 15000+50000
- 14221 words of font info for 53 fonts, out of 3000000 for 9000
+ 15008 strings out of 495061
+ 279647 string characters out of 1182621
+ 352621 words of memory out of 3000000
+ 17715 multiletter control sequences out of 15000+50000
+ 11332 words of font info for 42 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 49i,16n,63p,425b,793s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi
-8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on ej_beamer.pdf (16 pages, 210618 bytes).
+ 49i,16n,62p,425b,792s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Navigation26} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation27} has been referenced but does not exis
+t, replaced by a fixed one
+
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on ej_beamer.pdf (25 pages, 288145 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 826 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
